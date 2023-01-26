@@ -33,7 +33,7 @@ chmod +x /usr/local/bin/docker-compose
 echo "[5]: use registry without ssl"
 echo "
 {
- \"insecure-registries\" : [\"192.168.5.5:5000\"]
+ \"insecure-registries\" : [\"192.168.56.7:5000\"]
 }
 " >/etc/docker/daemon.json
 systemctl daemon-reload
